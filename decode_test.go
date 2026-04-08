@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"go.yaml.in/yaml/v2"
+	"go-yaml.in/yaml/v2"
 )
 
 var unmarshalIntTest = 123

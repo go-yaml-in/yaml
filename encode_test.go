@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"go.yaml.in/yaml/v2"
+	"go-yaml.in/yaml/v2"
 )
 
 type jsonNumberT string
