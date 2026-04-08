@@ -1,4 +1,4 @@
-go.yaml.in/yaml
+go-yaml.in/yaml
 ===============
 
 YAML Support for the Go Language
@@ -59,18 +59,18 @@ Specifically, v3 of the `yaml` package:
 
 ## Installation and Usage
 
-The import path for the package is *go.yaml.in/yaml/v3*.
+The import path for the package is *go-yaml.in/yaml/v3*.
 
 To install it, run:
 
 ```bash
-go get go.yaml.in/yaml/v3
+go get go-yaml.in/yaml/v3
 ```
 
 
 ## API Documentation
 
-See: <https://pkg.go.dev/go.yaml.in/yaml/v3>
+See: <https://pkg.go.dev/go-yaml.in/yaml/v3>
 
 
 ## API Stability
@@ -88,7 +88,7 @@ import (
 	"fmt"
 	"log"
 
-	"go.yaml.in/yaml/v3"
+	"go-yaml.in/yaml/v3"
 )
 
 var data = `
