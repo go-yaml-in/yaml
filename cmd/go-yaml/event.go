@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	"go.yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4"
 )
 
 // EventType represents the type of a YAML event

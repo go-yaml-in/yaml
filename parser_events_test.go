@@ -3,8 +3,8 @@ package yaml_test
 import (
 	"testing"
 
-	"go.yaml.in/yaml/v4"
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
 )
 
 func TestParserGetEvents(t *testing.T) {

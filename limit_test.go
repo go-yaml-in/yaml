@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"go.yaml.in/yaml/v4"
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
 )
 
 var limitTests = []struct {

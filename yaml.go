@@ -31,7 +31,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"go.yaml.in/yaml/v4/internal/libyaml"
+	"go-yaml.in/yaml/v4/internal/libyaml"
 )
 
 // The Unmarshaler interface may be implemented by types to customize their
