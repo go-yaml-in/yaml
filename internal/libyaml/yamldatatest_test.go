@@ -16,8 +16,8 @@ import (
 	"runtime"
 	"testing"
 
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
-	"go.yaml.in/yaml/v4/internal/testutil/datatest"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4/internal/testutil/datatest"
 )
 
 // TestCase represents a single test case loaded from YAML

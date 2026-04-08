@@ -15,7 +15,7 @@ import (
 	"io"
 	"reflect"
 
-	"go.yaml.in/yaml/v4/internal/libyaml"
+	"go-yaml.in/yaml/v4/internal/libyaml"
 )
 
 // Dump encodes a value to YAML with the given options.

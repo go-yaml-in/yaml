@@ -8,8 +8,8 @@ import (
 	"io"
 	"testing"
 
-	"go.yaml.in/yaml/v4"
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
 )
 
 // TestStreamNodeEmptyStream tests that an empty stream returns a single StreamNode

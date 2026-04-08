@@ -22,4 +22,4 @@ For contributors and those interested in go-yaml internals:
 - [Main README](../README.md) — Getting started
 - [CONTRIBUTING](../CONTRIBUTING.md) — How to contribute
 - [Examples](../example/README.md) — Runnable code examples
-- [API Reference](https://pkg.go.dev/go.yaml.in/yaml/v4) — Full API documentation
+- [API Reference](https://pkg.go.dev/go-yaml.in/yaml/v4) — Full API documentation

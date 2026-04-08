@@ -29,7 +29,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.yaml.in/yaml/v4/internal/libyaml"
+	"go-yaml.in/yaml/v4/internal/libyaml"
 )
 
 //-----------------------------------------------------------------------------

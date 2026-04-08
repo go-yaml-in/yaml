@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
 )
 
 func TestAPI(t *testing.T) {

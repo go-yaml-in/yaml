@@ -1,4 +1,4 @@
-go.yaml.in/yaml
+go-yaml.in/yaml
 ===============
 
 YAML Support for the Go Language
@@ -46,7 +46,7 @@ working without breaking changes.
 All ongoing work, including new features and routine bug-fixes, will happen in
 **`v4`**.
 If you’re starting a new project or upgrading an existing one, please use the
-`go.yaml.in/yaml/v4` import path.
+`go-yaml.in/yaml/v4` import path.
 
 
 ## Compatibility
@@ -71,18 +71,18 @@ Specifically, v3 of the `yaml` package:
 
 ## Installation and Usage
 
-The import path for the package is *go.yaml.in/yaml/v4*.
+The import path for the package is *go-yaml.in/yaml/v4*.
 
 To install it, run:
 
 ```bash
-go get go.yaml.in/yaml/v4
+go get go-yaml.in/yaml/v4
 ```
 
 
 ## API Documentation
 
-See: <https://pkg.go.dev/go.yaml.in/yaml/v4>
+See: <https://pkg.go.dev/go-yaml.in/yaml/v4>
 
 
 ## API Stability
@@ -100,7 +100,7 @@ import (
 	"fmt"
 	"log"
 
-	"go.yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4"
 )
 
 var data = `
@@ -256,7 +256,7 @@ foo: &a1 bar
 You can also install it with:
 
 ```bash
-go install go.yaml.in/yaml/v4/cmd/go-yaml@latest
+go install go-yaml.in/yaml/v4/cmd/go-yaml@latest
 ```
 
 

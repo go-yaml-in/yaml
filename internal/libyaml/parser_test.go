@@ -11,7 +11,7 @@ import (
 	"bytes"
 	"testing"
 
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
 )
 
 func TestParser(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"io"
 	"os"
 
-	"go.yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4"
 )
 
 // ProcessYAML reads YAML from reader and outputs formatted YAML
