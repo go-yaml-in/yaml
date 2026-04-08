@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"go.yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4"
 )
 
 type ServerConfig struct {

@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
-	"go.yaml.in/yaml/v4/internal/testutil/datatest"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4/internal/testutil/datatest"
 )
 
 func TestNode(t *testing.T) {

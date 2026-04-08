@@ -8,7 +8,7 @@ package libyaml
 import (
 	"testing"
 
-	"go.yaml.in/yaml/v4/internal/testutil/assert"
+	"go-yaml.in/yaml/v4/internal/testutil/assert"
 )
 
 func TestDesolver(t *testing.T) {

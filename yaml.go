@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"go.yaml.in/yaml/v4/internal/libyaml"
-	"go.yaml.in/yaml/v4/plugin/limit"
+	"go-yaml.in/yaml/v4/internal/libyaml"
+	"go-yaml.in/yaml/v4/plugin/limit"
 )
 
 //-----------------------------------------------------------------------------
@@ -280,7 +280,7 @@ type DepthContext = libyaml.DepthContext
 //
 // Example:
 //
-//	import "go.yaml.in/yaml/v4/plugin/limit"
+//	import "go-yaml.in/yaml/v4/plugin/limit"
 //	loader := yaml.NewLoader(data, yaml.WithPlugin(limit.New(limit.AliasNone())))
 //
 // Plugins use public types and can be implemented by external packages.

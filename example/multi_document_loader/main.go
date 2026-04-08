@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"go.yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4"
 )
 
 type Config struct {

@@ -19,7 +19,7 @@ By default, go-yaml enforces conservative limits to prevent DoS attacks.
 Use the limit plugin to relax or tighten those limits.
 
 ```go
-import "go.yaml.in/yaml/v4/plugin/limit"
+import "go-yaml.in/yaml/v4/plugin/limit"
 
 // Default limits (same as library defaults)
 loader := yaml.NewLoader(data, yaml.WithPlugin(limit.New()))
@@ -50,8 +50,8 @@ Register plugins with `WithPlugin()`:
 
 ```go
 import (
-    "go.yaml.in/yaml/v4"
-    "go.yaml.in/yaml/v4/plugin/limit"
+    "go-yaml.in/yaml/v4"
+    "go-yaml.in/yaml/v4/plugin/limit"
 )
 
 loader := yaml.NewLoader(data, yaml.WithPlugin(limit.New(limit.AliasNone())))

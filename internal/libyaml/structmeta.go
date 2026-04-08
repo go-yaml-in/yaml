@@ -115,7 +115,7 @@ func hasConstructYAMLMethod(t reflect.Type) bool {
 
 func isYAMLNodePkg(pkg string) bool {
 	switch pkg {
-	case "gopkg.in/yaml.v3", "go.yaml.in/yaml/v3":
+	case "gopkg.in/yaml.v3", "go-yaml.in/yaml/v3":
 		return true
 	}
 	return false

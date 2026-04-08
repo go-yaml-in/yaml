@@ -16,7 +16,7 @@ func TestIsYAMLNodePkg(t *testing.T) {
 		want bool
 	}{
 		{"gopkg.in/yaml.v3", true},
-		{"go.yaml.in/yaml/v3", true},
+		{"go-yaml.in/yaml/v3", true},
 		{"example.com/mypkg", false},
 		{"gopkg.in/yaml.v2", false},
 		{"", false},

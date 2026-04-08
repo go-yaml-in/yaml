@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"io"
 
-	"go.yaml.in/yaml/v4"
-	"go.yaml.in/yaml/v4/internal/libyaml"
+	"go-yaml.in/yaml/v4"
+	"go-yaml.in/yaml/v4/internal/libyaml"
 )
 
 // EventType represents the type of a YAML event
